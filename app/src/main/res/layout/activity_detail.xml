@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/realNazivView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Naziv: "
+            app:layout_constraintBottom_toTopOf="@+id/realProizvodjacView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/realUporabljivostView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Uporabljivost: "
+            app:layout_constraintBottom_toTopOf="@+id/realDostupnostView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realPlatformaView" />
+
+        <TextView
+            android:id="@+id/realProizvodjacView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Proizvođač: "
+            app:layout_constraintBottom_toTopOf="@+id/realLinkView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realNazivView" />
+
+
+        <TextView
+            android:id="@+id/realCijenaView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Cijena: "
+            app:layout_constraintBottom_toTopOf="@+id/realLinkView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realProizvodjacView" />
+
+
+        <TextView
+            android:id="@+id/realLinkView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:autoLink="web"
+            android:paddingRight="8dp"
+            android:text="Link: "
+            app:layout_constraintBottom_toTopOf="@+id/realJeziciView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realCijenaView" />
+
+        <TextView
+            android:id="@+id/realJeziciView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Jezici: "
+            app:layout_constraintBottom_toTopOf="@+id/realVrstaPoteskoceView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realLinkView" />
+
+        <TextView
+            android:id="@+id/realVrstaPoteskoceView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="VrstaPoteskoce: "
+            app:layout_constraintBottom_toTopOf="@+id/realICTUredjajView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realJeziciView" />
+
+        <TextView
+            android:id="@+id/realICTUredjajView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="ICT uredjaj; "
+            app:layout_constraintBottom_toTopOf="@+id/realAsistivnaTehnologijaView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realVrstaPoteskoceView" />
+
+        <TextView
+            android:id="@+id/realAsistivnaTehnologijaView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Asistivna tehnologija: "
+            app:layout_constraintBottom_toTopOf="@+id/realPlatformaView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realICTUredjajView" />
+
+        <TextView
+            android:id="@+id/realPlatformaView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Platforma: "
+            app:layout_constraintBottom_toTopOf="@+id/realUporabljivostView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realAsistivnaTehnologijaView" />
+
+        <TextView
+            android:id="@+id/realVrstaPrimjeneView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Vrsta primjene: "
+            app:layout_constraintBottom_toTopOf="@+id/realMjestoPrimjeneView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realDostupnostView" />
+
+        <TextView
+            android:id="@+id/realMjestoPrimjeneView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Mjesto primjene: "
+            app:layout_constraintBottom_toTopOf="@id/realOpisView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realVrstaPrimjeneView" />
+
+
+        <TextView
+            android:id="@+id/realRecenzijeView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:autoLink="web"
+            android:paddingRight="8dp"
+            android:text="Recenzije: "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realOpisView" />
+
+        <TextView
+            android:id="@+id/realOpisView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Opis: "
+            app:layout_constraintBottom_toTopOf="@id/realRecenzijeView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realMjestoPrimjeneView" />
+
+
+        <TextView
+            android:id="@+id/realDostupnostView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Dostupnost: "
+            app:layout_constraintBottom_toTopOf="@+id/realVrstaPrimjeneView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/realUporabljivostView" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/placeholder" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

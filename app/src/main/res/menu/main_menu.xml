@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/overflowMenu1"
+        android:icon="@drawable/filter_icon"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/categoricalFilterView"
+                android:icon="@drawable/filter_icon"
+                android:title="Filtriraj po kategorijama" />
+            <item
+                android:id="@+id/resetFilter"
+                android:icon="@mipmap/default_special_settings"
+                android:title="Prikaži sva" />
+            <item
+                android:id="@+id/closeSpecialSettings"
+                android:icon="@drawable/close_icon"
+                android:title="Zatvori" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/overflowMenu2"
+        android:icon="@drawable/ic_menu_special_icon"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/increaseFontSize"
+                android:icon="@mipmap/increase_font"
+                android:title="Povećaj Veličinu fonta" />
+            <item
+                android:id="@+id/decreaseFontSize"
+                android:icon="@mipmap/decrease_font"
+                android:title="Smanji Veličinu fonta" />
+            <item
+                android:id="@+id/originalFontSize"
+                android:icon="@mipmap/original_font"
+                android:title="Početna veličina fonta" />
+
+            <item
+                android:id="@+id/changeFontFamily"
+                android:icon="@mipmap/font3"
+                android:title="Omo Type Std" />
+            <item
+                android:id="@+id/changeContrast"
+                android:icon="@mipmap/change_contrast"
+                android:title="Promjena kontrasta" />
+            <item
+                android:id="@+id/defaultSpecialSettings"
+                android:icon="@mipmap/default_special_settings"
+                android:title="Početne postavke" />
+            <item
+                android:id="@+id/closeSpecialSettings1"
+                android:icon="@drawable/close_icon"
+                android:title="Zatvori" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/overflowMenu3"
+        android:icon="@drawable/info_pic"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/informationView"
+                android:icon="@drawable/info_app"
+                android:title="Informacije o aplikaciji" />
+
+            <item
+                android:id="@+id/closeSpecialSettings2"
+                android:icon="@drawable/close_icon"
+                android:title="Zatvori" />
+        </menu>
+    </item>
+
+</menu>

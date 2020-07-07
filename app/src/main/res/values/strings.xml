@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Web Katalog Digitalnih Asistivnih Rješenja</string>
+    <string name="phone_hint">Ime aplikacije/proizvođača</string>
+    <string name="vrsta_teskoce"><u>Vrsta teškoće</u></string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="vrsta_primjene"><u>Vrsta primjene</u></string>
+    <string name="platforma"><u>Platforma</u></string>
+    <string name="jezici"><u>Jezici</u></string>
+    <string name="cijena"><u>Cijena</u></string>
+    <string name="info_about_app">Aplikacija je razvijena u okviru diplomskog rada <b>Mobilni klijent s opcijama pristupačnosti za web-katalog asistivnih rješenja</b> na
+    <a href="https://www.fer.unizg.hr/">Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu</a>, ak. god. 2019./2020.</string>
+    <string name="developed_with">Razvijeno alatom <b>Android Studio</b>, posljednja verzija 3.6.</string>
+
+    <string name="copyrights_text">Aplikacija koristi font <b>Omo Type Std</b>, licenca:</string>
+    <string name="copyrights_notice">© OmoLab  All rights reserved</string>
+</resources>
