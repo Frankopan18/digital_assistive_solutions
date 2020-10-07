@@ -1,1 +1,1 @@
-# digital_assistive_solutions
+Digital Assistive Solutions Android App - Synchronous communication with web app
